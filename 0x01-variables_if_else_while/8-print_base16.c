@@ -13,7 +13,7 @@ int main(void)
 	{
 		putchar(hexd);
 	}
-	for (hexd = 'A'; hexd <= 'F'; hexd++)
+	for (hexd = 'a'; hexd <= 'f'; hexd++)
 	{
 		putchar(hexd);
 	}
