@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	char hexd
+	char hexd;
 
 	for (hexd = '0'; hexd <= '9'; hexd++)
 	{
