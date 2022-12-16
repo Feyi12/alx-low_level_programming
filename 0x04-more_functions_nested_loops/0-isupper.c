@@ -5,9 +5,9 @@
  * Return: 1 if c is uppercase, 0 otherwise
  */ 
 
- int _isupper(int ch)
+int _isupper(int c)
 {
-	if((ch >= 'A') && (ch <= 'Z'))
+	if (c >= 'A' && c <= 'Z')
 	{
 		return (1);
 	}
