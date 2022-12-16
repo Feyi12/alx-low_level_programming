@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - check the code
+ * print_diagonal - diagonal line
  *
  * Return: Always 0.
  */
