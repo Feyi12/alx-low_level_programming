@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_triangle
+ * print_triangle - followed by new line
  * @size : integer type
  * Return : void
  */
