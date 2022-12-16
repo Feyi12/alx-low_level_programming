@@ -4,6 +4,7 @@
  * @size : integer type
  * Return : void
  */
+
 void print_triangle(int size)
 {
 
