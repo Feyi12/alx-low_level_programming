@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_line
+ * print_line - straight line
  * @n: print int
  * Return: always 0
  */
