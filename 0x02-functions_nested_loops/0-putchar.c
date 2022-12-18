@@ -4,10 +4,12 @@
  * is written by Feye
  * Return: 0
  */
-int main(void)
+
+int _putchar(char c)
 {
+	char c;
+
 	char c[8] = "_putchar";
-	
 	for (i = 0; i < 8; i++)
 	{
 		_putchar(c[i]);
