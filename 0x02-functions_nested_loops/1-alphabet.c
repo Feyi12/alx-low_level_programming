@@ -2,7 +2,7 @@
 
 /**
  * main - Lowercase alphabets
- * discription print alphabet - lowercase letter
+ * print_alphabet - print lowercase letter only
  * Return: Always 0
  */
 
