@@ -2,19 +2,17 @@
 
 /**
  * main - Lowercase alphabets
- *
+ * print alphabet - lowercase letter
  * Return: Always 0
  */
 void print_alphabet(void)
 {
-	char ch;
+	char lletter;
 
-	for (ch = 'a'; ch <= 'z'; ch++)
+	for (lletter = 'a'; lletter <= 'z'; lletter++)
 	{
-		_putchar(ch);
-		ch++;
+		_putchar(lletter);
 	}
 
 	_putchar('\n');
 }
-
