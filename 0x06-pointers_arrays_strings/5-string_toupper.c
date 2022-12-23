@@ -4,7 +4,7 @@
  * @n: input string
  * Return: Uppercase
  */
-char *string_toupper(char *n)
+char *string_toupper(char *)
 {
 	int i;
 
