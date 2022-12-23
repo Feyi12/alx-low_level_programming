@@ -3,6 +3,7 @@
  * *_strncat - function that concatenate two strings
  * @dest: destination of files
  * @src: source of files
+ * @n: input
  * Return: destination file
  */
 char *_strncat(char *dest, char *src, int n)
