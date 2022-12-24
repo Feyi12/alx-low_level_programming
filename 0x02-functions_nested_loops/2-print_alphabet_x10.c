@@ -1,21 +1,19 @@
 #include "main.h"
 /**
- * print_alphabet_x10 - alphabet in lowercase letter that 10x
+ * print_alphabet_x10 - a function that returns letter that 10x
  * description: print lowercase alphabet
- *
- * Return: Always 0
+ * Return: x10 a-z
  */
-
 void print_alphabet_x10(void)
 {
 	int count = 0;
-	char lletter;
+	char letter;
 	
 	while (count++ <= 9)
 	{
-		for (lletter = 'a'; lletter <= 'z'; lletter++)
+		for (letter = 'a'; letter <= 'z'; letter++)
 		{
-			_putchar(lletter);
+			_putchar(letter);
 		}
 		_putchar('\n');
 	}
