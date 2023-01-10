@@ -10,8 +10,8 @@
  */
 int main(int argc, char *argv[])
 {
-	int m , n;
-
+	int i , j;
+	
 	if (argc == 1 || argc == 2)
 	{
 		printf("Error\n");
@@ -19,16 +19,14 @@ int main(int argc, char *argv[])
 	}
 	else
 	{
-		n = 1;
-
-		for (m = 1; m < 3; m++)
+		j = 1;
+		
+		for (i = 1; i < 3; i++)
 		{
-			n *= atoi(argv[m]);
-
-			printf("%d\n", n);
+			j *= atoi(argv[i]);
+			printf("%d\n", j);
 		}
-
+		
 		return (0);
 	}
-
 }
