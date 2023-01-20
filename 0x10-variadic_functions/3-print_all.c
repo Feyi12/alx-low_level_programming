@@ -12,17 +12,18 @@ void op_c(va_list form)
 {
 	printf("%c", va_arg(form, int));
 }
+
 /**
  * op_i - Print Integer
  *  @form: name va_list
  *
  * Return: Always success
  */
-
 void op_i(va_list form)
 {
 	printf("%i", va_arg(form, int));
 }
+
 /**
  * op_f - print FLoat numbers
  * @form: name of va_list
@@ -33,6 +34,7 @@ void op_f(va_list form)
 {
 	printf("%f", va_arg(form, double));
 }
+
 /**
  * op_s -print string
  * @form: name va_list
@@ -51,26 +53,28 @@ void op_s(va_list form)
 	}
 	printf("%s", str);
 }
+
 /**
  * print_all - function that prints anything.
  * @format: a list of types of arguments passed to the function
  * Return: Always 0
  */
-
 void print_all(const char * const format, ...)
 {
 	va_list all;
 	unsigned int i, j;
 	char *separator = "";
-
+	
 	f ops[] = {
 		{"c", op_c},
 		{"i", op_i},
 		{"f", op_f},
 		{"s", op_s},
-         	};
+	};
+
 	va_start(all, format);
 	i = 0;
+
 	while (format && format[i])
 	{
 		j = 0;
@@ -85,9 +89,9 @@ void print_all(const char * const format, ...)
 			}
 			j++;
 		}
-	i++;
+		i++;
 	}
-
+	
 	printf("\n");
 	va_end(all);
 }
